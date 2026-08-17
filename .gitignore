@@ -1,0 +1,31 @@
+# Environment variables — NEVER commit these
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Data directories — these can be huge and are auto-generated
+data/
+
+# Airflow generated files
+src/airflow/logs/
+src/airflow/plugins/
+src/airflow/reports/
+
+# Spark generated files
+src/spark/data/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jar files (downloaded at runtime by Spark)
+jars/

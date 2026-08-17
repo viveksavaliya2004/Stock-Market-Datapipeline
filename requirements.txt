@@ -1,0 +1,28 @@
+# API & Data Fetching
+requests==2.31.0
+ 
+# Kafka Integration
+confluent-kafka==2.3.0
+ 
+# Environment Variables
+python-dotenv==1.0.0
+ 
+# Logging
+loguru==0.7.2
+ 
+# AlphaVantage data source (replaces yfinance)
+# batch producer now uses AlphaVantage TIME_SERIES_DAILY
+# stream producer now uses AlphaVantage GLOBAL_QUOTE
+ 
+# MinIO
+minio
+ 
+# Parquet support (both fastparquet and pyarrow kept for compatibility)
+fastparquet
+pyarrow
+ 
+# AWS / S3 client (used by load_to_snowflake.py to read from MinIO)
+boto3
+ 
+# Snowflake — [pandas] extra ensures write_pandas / pandas_tools are available
+snowflake-connector-python[pandas]
