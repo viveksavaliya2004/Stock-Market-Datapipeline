@@ -548,7 +548,7 @@ CREATE TABLE IF NOT EXISTS STOCKMARKETBATCH.PUBLIC.DAILY_STOCK_METRICS (
 ---
 
 <p align="center">
-  Built by Prasun Dutta · Assisted by <a href="https://code.claude.com/docs/en/overview">Claude Code</a>
+  Built by Vivek Savaliya
 </p>
 
 ---
